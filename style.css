@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+article.photo {
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    width: 800px;
+    margin: 100px auto;
+    overflow: hidden;
+    background-image: url(https://files.porsche.com/filestore/image/multimedia/none/rd-2021-homepage-banner-ww-taycanbasis-kw04/normal/50c2468d-5c38-11eb-80d2-005056bbdc38;sN;twebp/porsche-normal.webp)
+    }
+
+    .photo .description {
+       background-color: grey;
+       position: absolute;
+       bottom: 0%;
+       left: 0%;
+       right: 0%;
+       padding: 75px;
+       transform: translateY(15%);
+       transition-duration: 1s;
+       border-top-left-radius:75px;
+       border-top-right-radius: 75px;
+    }
+
+    .photo:hover .description {
+        transform: translateY(85%);
+    }
+
+    #photo {
+        position: relative;
+        bottom: 0%;
+        left: 100%;
+        right: 0%;
+        padding: 100px;
+    }
+
+
+    .date{
+         position: absolute;
+         top: 5px;
+        background-color: lightslategrey;
+         color:black;
+          border: 3px solid rgb(7, 7, 20);
+        border-radius: 50%;
+        left: 89%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        padding: 0 ;
+    }
+
+    .description {
+        text-align: center;
+       color: black;
+       font-weight: bold;
+       padding: 10%;
+    }
+
+    p, h2, h1{ 
+        margin: 4%;
+    }
+    
+
+    
+
+
